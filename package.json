@@ -1,0 +1,53 @@
+{
+  "name": "til",
+  "version": "1.0.0",
+  "description": "Today I Learned tool using React as a front-end",
+  "scripts": {
+    "server": "node til_web.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BurlingtonCodeAcademy/til.git"
+  },
+  "keywords": [
+    "learning"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BurlingtonCodeAcademy/til/issues"
+  },
+  "homepage": "https://github.com/BurlingtonCodeAcademy/til#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mime": "^2.3.1",
+    "mime-types": "^2.1.18",
+    "moment": "^2.22.2",
+    "mongodb": "^3.1.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.15.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
